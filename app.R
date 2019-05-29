@@ -81,7 +81,7 @@ ui <- shinyUI(fluidPage(
              tabPanel("Lingerie Data Table",
                       
                       
-                      # Show Word Cloud
+                      
                       mainPanel(
                         DT::dataTableOutput("mrp")
                       )
